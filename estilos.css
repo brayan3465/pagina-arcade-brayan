@@ -1,0 +1,167 @@
+
+
+
+.colordefondo{
+    background-color: #293447;
+    
+    
+    }
+    
+    
+           
+    header { 
+        font-size: 40px;
+        font-family: 'Courier New', Courier, monospace;
+        background-color:black;
+        color:white;
+        padding: 40px;
+        text-align: center;  
+    }
+        
+  
+    
+    nav ul {
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        list-style-type: none;
+        margin: 20px grey;
+        padding: 10px;
+        overflow: hidden     ;
+        background-color: grey;
+    
+    }
+    
+    nav li {
+        float: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    nav li a {
+        text-decoration: none;
+        font-size: 30px;
+       
+        display: inline ;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 50px;
+        text-decoration: none;
+    
+    }
+    
+    nav li a:hover {
+        background-color: rgb(41, 41, 44);
+    }
+  main {
+      color: black;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border: 30px;
+        padding: 100px;
+        background-color: #3a4f74;
+        border-radius: 20px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    }
+    
+    footer {
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding: 40px;
+        background-color: black;
+    
+   
+        margin: 1px;
+       
+      
+        width: 100%;
+        height: 30px;
+    }
+   
+    
+   
+    
+   
+    
+    .carousel-inner > .item > img,
+      .carousel-inner > .item > a > img {
+          width: 30%;
+          position:absolute ;
+          top: auto;
+          bottom: auto;
+          left: auto;
+          
+    
+        
+      }
+    
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        display: block;
+        max-width: 100%;
+      
+    }
+    
+    
+    h3{
+     text-align: center ;
+    
+    }
+    
+   
+    
+    .centrar{
+display: flex;
+   
+justify-content: center;
+align-items: center;
+position: fixed;
+bottom:0;
+left: 0px;
+    }
+    
+    
+    
+   
+ 
+
+   
+
+    .arcade  {
+        background-color: #a09494;
+        color: #030303;
+        padding: 5px;
+        text-align: center;
+    }
+    h2 {
+        color: #333;
+        border-bottom: 5px solid #ccc;
+        padding-bottom: 5px;
+        margin-bottom: 400px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    /* Estilos adicionales según tus necesidades */
+
+    /* Cambiar color de enlaces dentro de la lista */
+    ul a {
+        font-size: 30px;
+        color:white;
+        text-decoration: none;
+    }
+
+    /* Estilo cuando el enlace está siendo "hovered" */
+    ul a:hover {
+        text-decoration: underline;
+    }
+    
